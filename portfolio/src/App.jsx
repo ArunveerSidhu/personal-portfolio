@@ -1,10 +1,13 @@
 import React from 'react'
+import Header from './components/Header'
+import AboutMe from './components/AboutMe'
 
 function App() {
 
   return (
     <>
-      <h1 className='text-5xl text-red-500'>Hello world</h1>
+      <Header/>
+      <AboutMe/>
     </>
   )
 }
