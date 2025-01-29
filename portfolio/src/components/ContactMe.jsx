@@ -35,7 +35,7 @@ function ContactMe() {
   ]
 
   return (
-    <section id='contact' className="min-h-screen py-24 lg:py-16">
+    <section id='contact' className="h-screen flex items-center py-16">
       <div className="max-w-6xl mx-auto px-4 w-full">
         <h2 className="text-3xl sm:text-4xl font-mono font-bold mb-8 sm:mb-16">Get In Touch...</h2>
         
