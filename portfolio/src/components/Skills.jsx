@@ -62,15 +62,15 @@ function Skills() {
       name: 'Tailwind CSS',
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" className="w-12 h-12">
-          <path fill="currentColor" d="M9 13.7q1.4-5.6 7-5.6c5.6 0 6.3 4.2 9.1 4.9q2.8.7 4.9-2.1-1.4 5.6-7 5.6c-5.6 0-6.3-4.2-9.1-4.9q-2.8-.7-4.9 2.1zm-7 8.4q1.4-5.6 7-5.6c5.6 0 6.3 4.2 9.1 4.9q2.8.7 4.9-2.1-1.4 5.6-7 5.6c-5.6 0-6.3-4.2-9.1-4.9q-2.8-.7-4.9 2.1z"/>
+          <path fill="currentColor" d="M9 13.7q1.4-5.6 7-5.6c5.6 0 6.3 4.2 9.1 4.9q2.8.7 4.9-2.1-1.4 5.6-7 5.6c-5.6 0-6.3-4.2-9.1-4.9q-2.8-.7-4.9 2.1z"/>
         </svg>
       ),
     },
   ];
 
   return (
-    <section id='skills' className="h-[calc(100vh-4rem)] flex items-center">
-      <div className="max-w-6xl mx-auto px-4">
+    <section id='skills' className="min-h-[calc(100vh-4rem)] flex items-center py-16">
+      <div className="max-w-6xl mx-auto px-4 w-full">
         <h2 className="text-4xl font-mono font-bold mb-16">Skills</h2>
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8'>
           {skills.map((skill, index) => (

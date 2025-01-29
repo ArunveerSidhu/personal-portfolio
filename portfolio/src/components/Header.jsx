@@ -2,8 +2,8 @@ import React from 'react'
 
 function Header() {
   return (
-    <header className='h-16 w-screen  fixed top-0 bg-white z-50 font-mono'>
-      <nav className='h-full max-w-6xl mt-2 mx-auto px-4 flex justify-between items-center text-xl'>
+    <header className='h-16 w-screen fixed top-0 bg-white z-50 font-mono'>
+      <nav className='h-full max-w-6xl mx-auto px-4 flex justify-between items-center text-xl'>
         <ul className='h-full text-2xl font-bold flex items-center justify-center gap-8 '>
           <li className='cursor-pointer hover:text-gray-700 transition-colors'>
             <a href="#about">About Me</a>
