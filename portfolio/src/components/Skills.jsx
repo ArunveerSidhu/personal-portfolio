@@ -69,9 +69,9 @@ function Skills() {
   ];
 
   return (
-    <section id='skills' className="min-h-[calc(100vh-4rem)] flex items-center py-16">
+    <section id='skills' className="h-screen flex items-center py-16">
       <div className="max-w-6xl mx-auto px-4 w-full">
-        <h2 className="text-4xl font-mono font-bold mb-16">Skills</h2>
+        <h2 className="text-4xl font-mono font-bold mb-16">My Skills...</h2>
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8'>
           {skills.map((skill, index) => (
             <div 

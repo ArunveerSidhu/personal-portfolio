@@ -9,9 +9,11 @@ function App() {
   return (
     <>
       <Header/>
-      <AboutMe/>
-      <Skills/>
-      <Projects/>
+      <div className="snap-container">
+        <AboutMe/>
+        <Skills/>
+        <Projects/>
+      </div>
     </>
   )
 }

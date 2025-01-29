@@ -19,3 +19,18 @@ html {
 .border-r-4 {
   animation: blink 1s step-end infinite;
 }
+
+.snap-container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+html{
+  scroll-behavior: smooth;
+}
