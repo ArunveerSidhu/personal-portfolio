@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './components/Header'
 import AboutMe from './components/AboutMe'
+import Skills from './components/Skills.jsx'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header/>
       <AboutMe/>
+      <Skills/>
     </>
   )
 }

@@ -45,10 +45,10 @@ function AboutMe() {
   }, [displayText, isDeleting, loopNum, currentWord]);
 
   return (
-    <section id="about" className="mt-16">
+    <section id="about" className="h-[calc(100vh-4rem)] flex items-center">
       <div className="max-w-6xl mx-auto px-4">
-        <div className='h-auto w-full font-mono flex'>
-          <div className="text-5xl font-mono mt-36">
+        <div className='h-auto w-full font-mono'>
+          <div className="text-5xl font-mono">
             <h1>
               <span className="inline-block border-r-4 border-black pr-2">
                 {displayText}
