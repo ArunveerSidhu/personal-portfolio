@@ -3,6 +3,7 @@ import Header from './components/Header'
 import AboutMe from './components/AboutMe'
 import Skills from './components/Skills.jsx'
 import Projects from './components/Projects.jsx'
+import ContactMe from './components/ContactMe.jsx'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <AboutMe/>
         <Skills/>
         <Projects/>
+        <ContactMe/>
       </div>
     </>
   )
