@@ -35,37 +35,37 @@ function ContactMe() {
   ]
 
   return (
-    <section id='contact' className="h-screen flex items-center py-16">
+    <section id='contact' className="min-h-screen py-24 lg:py-16">
       <div className="max-w-6xl mx-auto px-4 w-full">
-        <h2 className="text-4xl font-mono font-bold mb-16">Get In Touch...</h2>
+        <h2 className="text-3xl sm:text-4xl font-mono font-bold mb-8 sm:mb-16">Get In Touch...</h2>
         
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-4 sm:gap-8 md:grid-cols-2 lg:grid-cols-3">
           {contacts.map((contact, index) => (
             <a
               key={index}
               href={contact.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-6 p-6 border-2 border-black rounded-xl hover:bg-black hover:text-white transition-all group"
+              className="flex items-center gap-4 sm:gap-6 p-4 sm:p-6 border-2 border-black rounded-xl hover:bg-white hover:text-black transition-all duration-300 group"
             >
-              <div className="group-hover:text-white transition-colors">
+              <div className="group-hover:text-black transition-colors">
                 {contact.icon}
               </div>
               <div>
-                <h3 className="text-xl font-mono font-bold">{contact.name}</h3>
-                <p className="text-gray-600 group-hover:text-gray-300">{contact.value}</p>
+                <h3 className="text-lg sm:text-xl font-mono font-bold">{contact.name}</h3>
+                <p className="text-sm sm:text-base text-gray-600 group-hover:text-gray-800">{contact.value}</p>
               </div>
             </a>
           ))}
         </div>
 
-        <div className="mt-16 text-center">
-          <p className="text-xl text-gray-600 mb-8">
+        <div className="mt-12 sm:mt-16 text-center">
+          <p className="text-base sm:text-xl text-gray-600 mb-6 sm:mb-8 px-4">
             I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.
           </p>
           <a 
             href="mailto:arunveersidhu@gmail.com"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-700 transition-colors text-lg font-mono"
+            className="inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-2.5 bg-black text-white rounded-lg border-2 border-black hover:bg-white hover:text-black transition-all duration-300 text-sm sm:text-base"
           >
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
               <path strokeLinecap="round" strokeLinejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />

@@ -49,20 +49,20 @@ function AboutMe() {
     <section id="about" className="h-screen flex items-center py-16">
       <div className="max-w-6xl mx-auto px-4 w-full">
         <div className='w-full font-mono'>
-          <div className="text-5xl font-mono">
+          <div className="text-3xl sm:text-4xl lg:text-5xl font-mono">
             <h1>
               <span className="inline-block border-r-4 border-black pr-2">
                 {displayText}
               </span>
               , I am <span className='font-extrabold'>Arunveer.</span>
             </h1>
-            <h1>
-                I am a <span className='font-extrabold'>MERN Stack Developer</span> <br /> with a passion for <span className='font-extrabold'>Web Development</span>.
+            <h1 className="mt-4">
+              I am a <span className='font-extrabold'>MERN Stack Developer</span> <br className="hidden sm:block" /> with a passion for <span className='font-extrabold'>Web Development</span>.
             </h1>
-            <p className='mt-10 text-xl text-gray-500'>
-                Enthusiastic Full-Stack Developer, well versed in MERN stack, and JAVA. I bring strong problem-solving skills, a knack for teamwork, and a passion for staying at the forefront of technological advancements to every project I undertake.
+            <p className='mt-8 text-base sm:text-lg lg:text-xl text-gray-500'>
+              Enthusiastic Full-Stack Developer, well versed in MERN stack, and JAVA. I bring strong problem-solving skills, a knack for teamwork, and a passion for staying at the forefront of technological advancements to every project I undertake.
             </p>
-            <div className="flex gap-4 mt-10">
+            <div className="flex flex-wrap gap-4 mt-8">
               <a href="https://www.linkedin.com/in/arunveer-sidhu-1719832b4/" target="_blank" rel="noopener noreferrer" 
                 className="p-4 bg-white border-2 border-black rounded-xl hover:bg-black hover:border-white group transition-all">
                 <svg className="w-6 h-6 group-hover:text-white" fill="currentColor" viewBox="0 0 24 24">
