@@ -46,24 +46,30 @@ html {
 
   section {
     min-height: 100vh;
-    margin: 4rem 0;  /* Increased base margin */
+    margin: 4rem 0;  /* Base margin */
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
   }
 
+  #about {
+    margin-top: 0; /* Removed margin */
+    padding-top: 0; /* Removed padding */
+  }
+
   #skills {
-    margin-top: 8rem;  /* Increased margin */
+    margin-top: 8rem;
   }
 
   #projects {
-    margin-top: 10rem; /* More margin for projects section */
-    padding-top: 2rem; /* Additional padding */
+    margin-top: 8rem; /* Reduced from 10rem to match other sections */
+    padding-top: 2rem;
   }
 
   #contact {
-    margin-top: 8rem;  /* Increased margin */
+    margin-top: 8rem; /* Kept consistent with other sections */
+    margin-bottom: 4rem; /* Added bottom margin for last section */
   }
 }
 
