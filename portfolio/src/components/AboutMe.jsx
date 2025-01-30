@@ -46,7 +46,7 @@ function AboutMe() {
 
   //min-h-[calc(100vh-4rem)]
   return (
-    <section id="about" className="h-screen flex items-center py-16">
+    <section id="about" className="min-h-screen w-full">
       <div className="max-w-6xl mx-auto px-4 w-full">
         <div className='w-full font-mono'>
           <div className="text-3xl sm:text-4xl lg:text-5xl font-mono">

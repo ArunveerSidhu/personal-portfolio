@@ -25,7 +25,7 @@ function Projects() {
   ];
   
   return (
-    <section id='projects' className="h-screen flex items-center py-16">
+    <section id='projects' className="min-h-screen w-full">
       <div className="max-w-6xl mx-auto px-4 w-full">
         <h2 className="text-3xl sm:text-4xl font-mono font-bold mb-8 sm:mb-16">My Projects...</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">

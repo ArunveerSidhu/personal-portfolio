@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Header/>
-      <div className="snap-container">
+      <div className="snap-container pt-16">
         <AboutMe/>
         <Skills/>
         <Projects/>

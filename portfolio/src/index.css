@@ -20,17 +20,63 @@ html {
   animation: blink 1s step-end infinite;
 }
 
+/* Desktop styles (768px and above) */
+@media (min-width: 768px) {
+  .snap-container {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+  }
+
+  section {
+    height: 100vh;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .snap-container {
+    overflow-y: auto;
+    margin-top: 4rem; /* Space for fixed header */
+  }
+
+  section {
+    min-height: 100vh;
+    margin: 4rem 0;  /* Increased base margin */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #skills {
+    margin-top: 8rem;  /* Increased margin */
+  }
+
+  #projects {
+    margin-top: 10rem; /* More margin for projects section */
+    padding-top: 2rem; /* Additional padding */
+  }
+
+  #contact {
+    margin-top: 8rem;  /* Increased margin */
+  }
+}
+
+/* Hide scrollbar but keep functionality */
 .snap-container {
-  height: 100vh;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
-section {
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
+.snap-container::-webkit-scrollbar {
+  display: none;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
