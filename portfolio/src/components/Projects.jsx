@@ -3,24 +3,24 @@ import React from 'react'
 function Projects() {
   const projects = [
     {
-      name: "Notes App",
-      description: "Built a notes app using React, Node.js, MongoDB, and Express.js. It allows users to create, edit, and delete notes, with user authentication and a beautiful UI.",
-      githubUrl: "https://github.com/ArunveerSidhu/Mern-notes-app",
-      techStack: ["React", "Node.js", "MongoDB", "Express.js", "Tailwind CSS", "JWT"],
+      name: "Real Estate Native Mobile App",
+      description: "Built a real estate native mobile app using React Native, Expo, and Firebase. It allows users to view properties, add properties, and manage properties.",
+      githubUrl: "https://github.com/ArunveerSidhu/real-estate-native-app",
+      techStack: ["React Native", "Expo", "Firebase", "Nativewind", "Expo Router", "React Navigation"],
     },
 
     {
-        name: "Movie Search App",
-        description: "Built a movie search app using React, and made it responsive using Tailwind CSS. It allows users to search for movies by interacting with OMDB API.",
-        githubUrl: "https://github.com/ArunveerSidhu/movie-search-app",
-        techStack: ["React", "Node.js", "Tailwind CSS", "API"],
+        name: "Crypto Portfolio Tracker",
+        description: "Built a crypto portfolio tracker using React, Node.js, and MongoDB. It allows users to track their crypto portfolio and get real-time updates on their portfolio.",
+        githubUrl: "https://github.com/ArunveerSidhu/crypto-marketplace",
+        techStack: ["React", "Node.js", "MongoDB", "Express.js", "Tailwind CSS", "JWT", "API"],
     },
     
     {
-        name: "To Do List App",
-        description: "Built a simple to-do list app using React, Node.js, and Redux toolkit for state management. It allows users to add, edit, and delete tasks seamlessly.",
-        githubUrl: "https://github.com/ArunveerSidhu/redux-todo",
-        techStack: ["React", "Node.js", "Tailwind CSS", "Redux Toolkit"],
+        name: "Hotel Booking Website",
+        description: "Built a hotel booking website using React, Node.js, and MongoDB. It allows users to book hotels and get real-time updates on their bookings.",
+        githubUrl: "https://github.com/ArunveerSidhu/hotel-booking-website",
+        techStack: ["React", "Node.js", "MongoDB", "Express.js", "Tailwind CSS", "JWT", "REST API"],
     },
   ];
   
