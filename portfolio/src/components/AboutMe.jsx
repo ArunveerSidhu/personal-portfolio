@@ -57,10 +57,10 @@ function AboutMe() {
               , I am <span className='font-extrabold'>Arunveer.</span>
             </h1>
             <h1 className="mt-4">
-              I am a <span className='font-extrabold'>MERN Stack Developer</span> <br className="hidden sm:block" /> with a passion for <span className='font-extrabold'>Web Development</span>.
+              I am a <span className='font-extrabold'>Full Stack Developer</span> <br className="hidden sm:block" /> with a passion for <span className='font-extrabold'>Web and Native app Development</span>.
             </h1>
             <p className='mt-8 text-base sm:text-lg lg:text-xl text-gray-500'>
-              Enthusiastic Full-Stack Developer, well versed in MERN stack, and JAVA. I bring strong problem-solving skills, a knack for teamwork, and a passion for staying at the forefront of technological advancements to every project I undertake.
+              Enthusiastic Full-Stack Developer, well versed in MERN stack, and React-Native. I bring strong problem-solving skills, a knack for teamwork, and a passion for staying at the forefront of technological advancements to every project I undertake.
             </p>
             <div className="flex flex-wrap gap-4 mt-8">
               <a href="https://www.linkedin.com/in/arunveer-sidhu-1719832b4/" target="_blank" rel="noopener noreferrer" 
