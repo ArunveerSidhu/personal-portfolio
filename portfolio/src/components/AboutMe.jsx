@@ -8,16 +8,16 @@ function AboutMe() {
   
   const greetings = [
     'Hello', // English
+    'नमस्ते', // Hindi
+    'こんにちは', // Japanese
+    'Привет', // Russian
+    '안녕하세요', // Korean
     'Hola', // Spanish
     'Bonjour', // French
     'Ciao', // Italian
-    'Hallo', // German
-    'こんにちは', // Japanese
-    'नमस्ते', // Hindi
-    '안녕하세요', // Korean
+    'Hallo', // German   
     'Olá', // Portuguese
-    'Привет', // Russian
-  ];
+     ];
 
   const currentWord = greetings[loopNum % greetings.length];
 
